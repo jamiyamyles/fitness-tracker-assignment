@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>AccessFit Admin System</title>
+    <link rel="stylesheet" href="">
+</head>
+<head>
+
+</head>
+<body>
+    <h1> Personal Fitness Trainer</h1>
+
+    <div class="task">
+        <h2>Daily Workout Summary</h2>
+        <div id="placeholder"></div>
+
+        <div class="task">
+            <h2>New Exercise</h2>
+            <label for="exercise-name-input">Exercise Name</label>
+            <input type="text" id="exercise-name-input">
+            <label for="exercise-type-select">Exercise Type</label>
+            <select id="exercise-type-select">
+                <option value="placeholder">Cardio</option>
+                <option value="placeholder">Strength Training</option>
+                <option value="placeholder">Flexibility</option>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="0" max="100" step="1">                
+            </select>
+        
+            <button id="add-exercise-btn"> log workout</button>
+            <ul id="all-member-list"></ul>
+        </div>
+           
+         <div class="task">
+                <h2>Past Workouts Log</h2>
+                <div id="placeholder"></div>
+
+
+</body>
+
+</html>
